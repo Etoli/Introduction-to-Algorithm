@@ -1,0 +1,12 @@
+Exercise 5.1-2
+请描述RANDOM(a,b)过程的一种实现，它只调用RANDOM(0,1)。作为a和b的函数，你的过程s的期望运行时间是多少？
+Answer:
+RANDOM(a, b):
+    if(a == b)
+        return a
+    mid = (a + b) /2
+    r = RANDOM(0, 1)
+    if(r == 0)
+        return RANDOM(a, mid)
+    else
+        return RANDOM(mid + 1, b)
