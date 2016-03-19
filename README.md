@@ -1,2 +1,2 @@
-# Inreoduction-to-Algorithm
-The realization of the algorithm in the Intruduction to Algorithm.
+# Introduction-to-Algorithm
+The realization of the algorithm in the Introduction to Algorithm.
